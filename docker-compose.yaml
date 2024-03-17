@@ -1,0 +1,9 @@
+version: '1.0'
+services:
+  api:
+    build: ./docker
+    image: verso/php-coding-test
+    ports:
+      - "8080:80"
+    volumes:
+      - ./:/var/www

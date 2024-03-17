@@ -1,0 +1,9 @@
+/var/cache/*
+/var/log/*
+/bin/*
+!bin/console
+vendor/
+composer.lock
+phpunit.xml
+.phpunit.result.cache
+.idea*
