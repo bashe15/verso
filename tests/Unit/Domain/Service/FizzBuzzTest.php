@@ -9,7 +9,7 @@ use PHPUnit\Framework\TestCase;
 
 class FizzBuzzTest extends TestCase
 {
-    private $fizzBuzz;
+    private FizzBuzzService $fizzBuzz;
 
     protected function setUp(): void
     {
